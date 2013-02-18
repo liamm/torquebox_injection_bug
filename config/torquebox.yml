@@ -1,0 +1,10 @@
+pooling:
+  web:
+    type: shared
+    lazy: false
+
+web:
+  context: "/test"
+
+services:
+  MyService:

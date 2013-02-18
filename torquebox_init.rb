@@ -1,0 +1,1 @@
+Dir["#{File.dirname(__FILE__)}/app/**/*.rb"].sort.each { |file| p file; require file }
